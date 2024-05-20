@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function () {
+       emailjs.init({
+       publicKey: 'YOUR_PUBLIC_KEY',
+       });
+     })();
+    </script>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Srijit's Portfolio</title>
+</head>
+<body>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Srijit's Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>    
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Srijit</h1>
+            <h3>And I'm your <span><span id="element"></span></span></h3>
+            <p>I am passionate about creating dynamic and beautiful web and mobile applications. I specialize in developing responsive, high-performance applications with a focus on user experience.</p>
+            <div class="social-media">
+                <a href="https://github.com/srijitmondal" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/SrijitMondal17" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/srijitmondal10/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/srijit_official/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:srijitmondal7@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:7001900801" target="_blank"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <a href="https://www.dropbox.com/scl/fi/l8q95t31jcnqnf4qd265h/SRIJIT-MONDAL_CSIT_2025.pdf?rlkey=agkii1dhosnqs8294fgo56ryp&st=ir0isn7s&dl=0" target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://i.postimg.cc/Qxrgjhfx/image.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+           <img src="https://i.postimg.cc/qv2VR96G/gcloud.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Android & Web Developer</h3>
+            <p>I am a underGrad from (IEM)Institute Of Engineering and Management,Kolkata studing under Computer Science And Information Technology(CSIT).
+                <br></bt><br>MY SKILLS :</p>
+            <ul>
+              <li>SQL</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>HTML/CSS</li>
+              <li>javaScript</li>
+              <li>GIT</li>
+              <li>Github</li>
+              <li>Android Studio</li>
+              <li>Firebase</li>
+            </ul>
+            <a href="#" class="btn">Read More</a>
+          </div>
+
+    </section>
+
+    <!---Achivements section-->
+    <section class="achievements" id="achievements">
+        <h2 class="heading">My <span>Achievements</span></h2>
+        <div class="achievements-container">
+            <div class="achievement-box">
+                <i class="fa-solid fa-trophy"></i>
+                <h3>Achievement 1</h3>
+                <p>3rd Prize Winner in Departmental Poster Competition under CSE AIML.</p>
+            </div>
+    
+            <div class="achievement-box">
+                <i class="fa-solid fa-medal"></i>
+                <h3>Achievement 2</h3>
+                <p>3rd Prize Winner in Departmental Project Competition under Dept. of CSIT.</p>
+            </div>
+    
+            <div class="achievement-box">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Achievement 3</h3>
+                <p>Aquired AWS Fundamentals Spacalization, Microsoft Azure Cloud Services Introduction & Hands on IOT by University Of Illonois from Coursera</p>
+            </div>
+        </div>
+    </section>
+
+    <!--services section design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>With a strong background in both front-end and back-end development, I strive to build solutions that not only meet but exceed user expectations.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Poster Designing</h3>
+                <p>As a dedicated poster designer, I blend creativity with strategic communication to craft visually compelling narratives that leave a lasting impact.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Android Development</h3>
+                <p>Passion for creating seamless & user-friendly Android applications.With a strong background in CS and hands-on-expertise in the Android ecosystem.</p>
+                <a href="#" class="btn">Read More</a>
+            </div> 
+        </div>       
+    </section>
+
+    <!--portfolio section--->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+           <div class="portfolio-box">
+               <img src="https://i.postimg.cc/MTg7MjVg/sm-audio.jpg" alt="">
+               <div class="portfolio-layar">
+                <h4>SM_Audio</h4>
+                <p>A music streaming web platform built using javascript,html & youtubemusic api. Consisting of a Good Looking responsive UI with the huge library of Youtube built using HTML,Css,javaScript.
+                    .</p>
+                <a href="https://smaudio.netlify.app" target="_blank">
+                  <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+              </div>
+           </div> 
+
+           <div class="portfolio-box">
+            <img src="https://i.postimg.cc/SQz70Dp4/SUSTAINABLE-LONG-TIME-DATA-STORAGE.jpg" alt="">
+                <div class="portfolio-layar">
+                   <h4>Professional Poster Design</h4>
+                   <p>A detailed well researched Poster based on how we can store the huge chunks of data we are generating in the future and also preserve the already stored data for future references.</p>
+                   <a href="https://www.canva.com/design/DAF83qyxtAg/g_IO_1webCLG936t-4hihg/view?utm_content=DAF83qyxtAg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">
+                   <i class="fa-solid fa-up-right-from-square"></i>
+                   </a>
+                </div>
+        </div> 
+        
+        <div class="portfolio-box">
+            <img src="https://i.postimg.cc/c12WC1jY/consu.jpg" alt="">
+            <div class="portfolio-layar">
+                <h4>FIN consumer App</h4>
+                <p>An App connected with firebase built using XML, Java & SQL to provide a platform for Food Donation purposes and sending pickup requests to the NGOs, built For the Normal Targated Consumers who wants to donate food to Needy People.</p>
+                <a href="https://www.example.com" target="_blank">
+                <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+           </div>
+        </div> 
+
+        <div class="portfolio-box">
+            <img src="https://i.postimg.cc/NF3vzbTb/ngoside.jpg" alt="">
+                <div class="portfolio-layar">
+                   <h4>FIN NGO App</h4>
+                   <p>>An App connected with firebase built using XML, Java & SQL to provide a platform for Food Donation purposes made to be used by targated speific registered audience(NGOs) for accepting donation orders and navigating to the pickup location.</p>
+                   <a href="https://www.example.com" target="_blank">
+                   <i class="fa-solid fa-up-right-from-square"></i>
+                   </a>
+                </div>
+        </div> 
+
+        <div class="portfolio-box">
+            <img src="https://i.postimg.cc/kXQQGG4h/Fright-of-AI.jpg" alt="">
+               <div class="portfolio-layar">
+                   <h4>Poster Design</h4>
+                   <p>A detailed well documented and researched poster on why AI is dangerour threat to Mankind. </p>
+                   <a href="https://www.canva.com/design/DAFLUhjChKs/CusQP9ZotSyKWSMUatqjow/view?utm_content=DAFLUhjChKs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">
+                   <i class="fa-solid fa-up-right-from-square"></i>
+                   </a>
+              </div>
+        </div> 
+
+        <div class="portfolio-box">
+            <img src="https://i.postimg.cc/g0Sqp7Jz/receipe-recc.jpg" alt="">
+                <div class="portfolio-layar">
+                   <h4>Receipe Recommender</h4>
+                   <p>A website that asks the ingredients that are available at the moment and Integrates the things you can cook with it;it also Integrate a custom chat bot that helps with your confutions.</p>
+                   <a href="https://receiperecommender.netlify.app/" target="_blank">
+                   <i class="fa-solid fa-up-right-from-square"></i>
+                   </a>
+                </div>
+        </div> 
+
+        </div>
+    </section>
+
+<!--contact section-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <p>Email : srijitmondal7@gmail.com<br><br>Please Get in touch for any purpose. I would love to contact you :</p>
+
+    <form id="contactForm">
+        <div class="input-box">
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            <input type="email" id="emailAddress" placeholder="Email Address" required>
+        </div>
+        
+        <div class="input-box">
+            <input type="number" id="mobileNumber" placeholder="Mobile Number" required>
+            <input type="text" id="emailSubject" placeholder="Email Subject" required>
+        </div>
+        <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="button" value="Send Message" id="sendbutton" class="btn" onclick="sendEmail()">
+    </form>
+    
+    <script>
+        emailjs.init("4m2ZXaBt9GN2eyInN");
+        
+        function sendEmail() {
+            var fullName = document.getElementById("fullName").value;
+            var emailAddress = document.getElementById("emailAddress").value;
+            var mobileNumber = document.getElementById("mobileNumber").value;
+            var emailSubject = document.getElementById("emailSubject").value;
+            var message = document.getElementById("message").value;
+
+            var templateParams = {
+                from_name: fullName,
+                email_id: emailAddress,
+                mobile_number: mobileNumber,
+                subject: emailSubject,
+                message: message
+            };
+
+            emailjs.send('service_by1nkzo', 'template_g4e7n9m', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert("Email Sent Successfully");
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    alert("Failed to send email. Please try again later.");
+                });
+        }
+    </script>
+</section>
+
+<!--footer design-->
+<footer class="footer" id="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by srijitdroid | All rights reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+<!--typejs font-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Android Developer ', 'Web Developer    '],
+        typeSpeed: 65,
+        backSpeed: 20,
+        backDelay: 1000,
+        loop: true
+    });
+</script>
+
+<!--main-js-->
+<script>
+    // Toggle icon behaviour
+    let menuIcon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menuIcon.onclick = () => {
+        console.log('Menu icon clicked'); // Debugging line
+        menuIcon.classList.toggle('fa-xmark');
+        navbar.classList.toggle('active');
+    };
+
+    // Scroll section active
+    let sections = document.querySelectorAll('section');
+    let navLinks = document.querySelectorAll('header nav a');
+
+    window.onscroll = () => {
+        sections.forEach(sec => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 150;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id');
+
+            if (top >= offset && top < offset + height) {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    document.querySelector(`header nav a[href*='${id}']`).classList.add('active');
+                });
+            }
+        });
+
+        // Sticky navbar
+        let header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 100);
+
+        // Remove toggle icon & navbar
+        menuIcon.classList.remove('fa-xmark');
+        navbar.classList.remove('active');
+    };
+</script>
+
+</body>
+</html>
